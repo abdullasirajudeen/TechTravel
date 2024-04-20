@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
+    --primary: #D5C264;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
@@ -441,3 +441,24 @@
     padding-right: 0;
     border-right: none;
 }
+
+/*Over Ride Start*/
+.text-primary {
+    color: #D5C264 !important;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #D5C264;
+    border-color: #D5C264;
+}
+
+a {
+    color: #D5C264;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d5c264bf;
+}
+/*Over Ride End*/
