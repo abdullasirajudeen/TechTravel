@@ -453,6 +453,11 @@
     border-color: #D5C264;
 }
 
+.btn-primary:hover {
+    background-color: #d5c264bf;
+    border-color: #d5c264bf;
+}
+
 a {
     color: #D5C264;
     text-decoration: none;
@@ -462,3 +467,17 @@ a:hover {
     color: #d5c264bf;
 }
 /*Over Ride End*/
+
+.bg-primary {
+    background-color: #D5C264 !important;
+}
+
+.border-primary {
+    border-color: #D5C264 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #D5C264;
+}
